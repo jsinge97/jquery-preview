@@ -1,31 +1,31 @@
-.thumb {
+.embedly-embedly-thumb {
   float: left;
   margin: 0 10px 0 0;
   position: relative;
   width: 100px; }
-  .thumb .items {
+  .embedly-embedly-thumb .embedly-items {
     position: relative;
     overflow: hidden;
     padding: 0px;
     height: 100px;
     width: 100px; }
-    .thumb .items .images {
+    .embedly-embedly-thumb .embedly-items .embedly-images {
       position: absolute;
       width: 300em;
       margin: 0px;
       padding: 0px;
       left: 0px; }
-      .thumb .items .images li {
+      .embedly-embedly-thumb .embedly-items .embedly-images li {
         list-style: none;
         float: left;
         margin: 0px;
         padding: 0px;
         width: 100px;
         height: 100px; }
-      .thumb .items .images img {
+      .embedly-embedly-thumb .embedly-items .embedly-images img {
         max-width: 100px;
         max-height: 100px; }
-  .thumb .controls {
+  .embedly-embedly-thumb .embedly-controls {
     top: 0px;
     left: 0px;
     width: 100px;
@@ -33,94 +33,94 @@
     height: 16px;
     z-index: 1;
     background-color: #222;
-    opacity: 0.5; }
-    .thumb .controls .left, .thumb .controls .right, .thumb .controls .nothumb {
+    opacity: 0.embedly-5; }
+    .embedly-embedly-thumb .embedly-controls .embedly-left, .embedly-embedly-thumb .embedly-controls .embedly-right, .embedly-embedly-thumb .embedly-controls .embedly-nothumb {
       display: block;
       position: absolute;
       top: 2px;
       color: #fff; }
-      .thumb .controls .left:hover, .thumb .controls .right:hover, .thumb .controls .nothumb:hover {
+      .embedly-embedly-thumb .embedly-controls .embedly-left:hover, .embedly-thumb .embedly-controls .embedly-right:hover, .embedly-thumb .embedly-controls .embedly-nothumb:hover {
         text-decoration: none; }
-    .thumb .controls .nothumb {
+    .embedly-embedly-thumb .embedly-controls .embedly-nothumb {
       right: 2px;
       font-weight: bold;
       top: 1px; }
-    .thumb .controls .left {
+    .embedly-embedly-thumb .embedly-controls .embedly-left {
       left: 2px; }
-    .thumb .controls .right {
+    .embedly-embedly-thumb .embedly-controls .embedly-right {
       left: 16px; }
-  .thumb .nothumb {
+  .embedly-embedly-thumb .embedly-nothumb {
     right: 2px;
     font-weight: bold;
     top: 1px; }
 
-.selector {
+.embedly-embedly-selector {
   margin: 10px auto;
   position: relative;
   min-height: 85px; }
-  .selector input {
+  .embedly-embedly-selector input {
     width: 420px; }
-  .selector textarea {
+  .embedly-embedly-selector textarea {
     width: 420px;
     margin: 5px 0; }
-  .selector .media iframe, .selector .media object, .selector .media embed, .selector .media img {
+  .embedly-embedly-selector .embedly-media iframe, .embedly-selector .embedly-media object, .embedly-selector .embedly-media embed, .embedly-selector .embedly-media img {
     margin: 10px auto;
     display: block; }
-  .selector .media img {
+  .embedly-embedly-selector .embedly-media img {
     max-width: 500px; }
-  .selector .attributes a {
+  .embedly-embedly-selector .embedly-attributes a {
     text-decoration: none; }
-    .selector .attributes a.title:hover, .selector .attributes a.description:hover {
+    .embedly-embedly-selector .embedly-attributes a.embedly-title:hover, .embedly-selector .embedly-attributes a.embedly-description:hover {
       text-decoration: none;
       background-color: #FFF6D9; }
-    .selector .attributes a.description {
+    .embedly-embedly-selector .embedly-attributes a.embedly-description {
       color: #000; }
-    .selector .attributes a.title {
+    .embedly-embedly-selector .embedly-attributes a.embedly-title {
       margin: 0 0 5px;
       display: block; }
-  .selector .attributes .meta {
+  .embedly-embedly-selector .embedly-attributes .embedly-meta {
     display: block; }
-    .selector .attributes .meta .favicon {
+    .embedly-embedly-selector .embedly-attributes .embedly-meta .embedly-favicon {
       width: 16px;
       height: 16px;
       vertical-align: middle;
       margin: 0 3px 0 0; }
-  .selector .action {
+  .embedly-embedly-selector .embedly-action {
     position: absolute;
     top: 0;
     right: 0;
     display: none; }
 
-.loading {
+.embedly-embedly-loading {
   display: none; }
-  .loading img {
+  .embedly-loading img {
     display: block;
     margin: 10px auto; }
 
-.item {
+.embedly-embedly-item {
   margin: 10px 0;
   border-top: 1px solid #dddddd;
   padding: 10px 0; }
-  .item.video .media iframe, .item.video .media object, .item.video .media embed, .item.video .media img, .item.rich .media iframe, .item.rich .media object, .item.rich .media embed, .item.rich .media img, .item.photo .media iframe, .item.photo .media object, .item.photo .media embed, .item.photo .media img {
+  .embedly-embedly-item.embedly-video .embedly-media iframe, .embedly-item.embedly-video .embedly-media object, .embedly-item.embedly-video .embedly-media embed, .embedly-item.embedly-video .embedly-media img, .embedly-item.embedly-rich .embedly-media iframe, .embedly-item.embedly-rich .embedly-media object, .embedly-item.embedly-rich .embedly-media embed, .embedly-item.embedly-rich .embedly-media img, .embedly-item.embedly-photo .embedly-media iframe, .embedly-item.embedly-photo .embedly-media object, .embedly-item.embedly-photo .embedly-media embed, .embedly-item.embedly-photo .embedly-media img {
     margin: 10px auto;
     display: block; }
-  .item.video .media img, .item.rich .media img, .item.photo .media img {
+  .embedly-embedly-item.embedly-video .embedly-media img, .embedly-item.embedly-rich .embedly-media img, .embedly-item.embedly-photo .embedly-media img {
     max-width: 560px; }
-  .item.video .title, .item.rich .title, .item.photo .title {
+  .embedly-embedly-item.embedly-video .embedly-title, .embedly-item.embedly-rich .embedly-title, .embedly-item.embedly-photo .embedly-title {
     margin: 10px 0;
     display: block;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.embedly-1em;
     color: #333; }
-  .item .status {
-    line-height: 1.2em;
+  .embedly-embedly-item .embedly-embedly-status {
+    line-height: 1.embedly-2em;
     margin: 10px 0;
     padding: 5px; }
-  .item .thumbnail {
+  .embedly-embedly-item .embedly-thumbnail {
     margin: 10px 10px 10px 5px;
     width: 105px;
     float: left; }
-    .item .thumbnail a {
+    .embedly-item .embedly-thumbnail a {
       display: table-cell;
       width: 100px;
       height: 75px;
@@ -129,41 +129,41 @@
       vertical-align: middle;
       position: relative;
       text-align: center; }
-    .item .thumbnail img {
+    .embedly-item .embedly-thumbnail img {
       max-width: 100px;
       vertical-align: middle;
       max-height: 75px; }
-    .item .thumbnail.video .overlay, .item .thumbnail.rich .overlay {
-      background-image: url(../images/play.png);
+    .embedly-item .embedly-thumbnail.embedly-video .embedly-overlay, .embedly-item .embedly-thumbnail.embedly-rich .embedly-overlay {
+      background-image: url(.embedly-.embedly-/images/play.embedly-png);
       width: 26px;
       height: 25px;
       position: absolute;
       right: 5px;
       bottom: 5px; }
-  .item .attributes {
+  .embedly-item .embedly-attributes {
     background-color: #EFEFEF;
     padding: 5px; }
-  .item .meta {
+  .embedly-item .embedly-meta {
     display: block; }
-    .item .meta .favicon {
+    .embedly-item .embedly-meta .embedly-favicon {
       width: 16px;
       height: 16px;
       vertical-align: middle;
       margin: 0 3px 0 0; }
 
-.clearfix:after {
-  content: ".";
+.embedly-clearfix:after {
+  content: ".embedly-";
   display: block;
   clear: both;
   visibility: hidden;
   line-height: 0;
   height: 0; }
 
-.clearfix {
+.embedly-clearfix {
   display: inline-block; }
 
-html[xmlns] .clearfix {
+html[xmlns] .embedly-clearfix {
   display: block; }
 
-* html .clearfix {
+* html .embedly-clearfix {
   height: 1%; }
